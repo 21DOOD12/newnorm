@@ -1,0 +1,102 @@
+.filials__wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid red;
+    overflow: hidden;
+}
+.filials {
+    display: flex;
+    min-width: 97vw;
+    /* Location of the image */
+    background-image: url("./photos/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.containerForLinks {
+    display: flex;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 420px;
+    left: -200px;
+}
+
+.link {
+    display: inline-block;
+    color: #ffffff;
+    min-width: 230px;
+    min-height: 60px;
+    background: rgba(94, 94, 94, 0.63);
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 3px;
+}
+
+.containerForInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 35px;
+    max-width: 900px;
+    color: #ffffff;
+}
+
+.tittle {
+    font-size: 100px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.text {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.containerForFilials {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.filialLinksOsh, .filialLinksTalas, .filialLinksBatken, .filialLinksIssykKul, .filialLinksJalalAdad, .filialLinksNaryn {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    font-weight: 800;
+    min-width: 290px;
+    min-height: 90px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-image: url("./photos/Osh.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filialLinksTalas {
+    background-image: url("./photos/Talas.png");
+}
+
+.filialLinksBatken {
+    background-image: url("./photos/Batken.png");
+}
+
+.filialLinksIssykKul {
+    background-image: url("./photos/IssykKul.png");
+}
+
+.filialLinksJalalAdad {
+    background-image: url("./photos/JalalAbad.png");
+}
+
+.filialLinksNaryn {
+    background-image: url("./photos/Naryn.png");
+}

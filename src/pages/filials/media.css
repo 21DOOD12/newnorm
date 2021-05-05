@@ -1,0 +1,252 @@
+
+
+@media (max-width: 1380px) {
+    .filials {
+        min-width: 98vw;
+    }
+    .containerForInfo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 200px;
+        padding: 25px;
+        max-width: 800px;
+        color: #ffffff;
+    }
+    .tittle {
+        font-size: 80px;
+        font-weight: 800;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .text {
+        font-weight: 700;
+        font-size: 15px;
+        padding-left: 150px;
+    }
+    .containerForLinks {
+        display: flex;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 430px;
+        left: -250px;
+    }
+    .link {
+        display: inline-block;
+        color: #ffffff;
+        min-width: 250px;
+        min-height: 60px;
+        background: rgba(94, 94, 94, 0.63);
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 10px;
+        margin-right: 3px;
+    }
+}
+    
+@media (max-width: 1340px) {
+    .filials {
+        min-width: 98vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .filials {
+        min-width: 98vw;
+    }
+    .containerForLinks {
+        display: flex;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 325px;
+        left: -150px;
+    }
+    .link {
+        display: inline-block;
+        color: #ffffff;
+        min-width: 180px;
+        min-height: 60px;
+        background: rgba(94, 94, 94, 0.63);
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        margin-right: 3px;
+    }
+    .containerForInfo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 200px;
+        padding: 25px;
+        max-width: 800px;
+        color: #ffffff;
+    }
+    .tittle {
+        font-size: 80px;
+        font-weight: 800;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .text {
+        font-weight: 700;
+        font-size: 14px;
+        padding-left: 150px;
+    }
+    .containerForFilials {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .filialLinksJalalAdad, .filialLinksIssykKul, .filialLinksBatken, .filialLinksTalas, .filialLinksOsh, .filialLinksNaryn {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 26px;
+        font-weight: 800;
+        min-width: 200px;
+        min-height: 80px;
+        margin: 0 auto;
+        color: #ffffff;
+        background-image: url("./photos/JalalAbad.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .filialLinksOsh{
+        background-image: url(./photos/Osh.png);
+    }
+    .filialLinksTalas {
+        background-image: url("./photos/Talas.png");
+    }
+    .filialLinksBatken {
+        background-image: url("./photos/Batken.png");
+    }
+    .filialLinksIssykKul {
+        background-image: url("./photos/IssykKul.png");
+    }
+    .filialLinksJalalAdad {
+        background-image: url("./photos/JalalAbad.png");
+    }
+    .filialLinksNaryn {
+        background-image: url("./photos/Naryn.png");
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .containerForLinks {
+        display: none;
+    }
+    .containerForInfo {
+        margin: 0;
+    }
+    .text {
+        padding: 0;
+    }
+    .tittle {
+        font-size: 60px;
+        font-weight: 800;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: 890px) {
+    .filials {
+        min-width: 98vw;
+    }
+    .containerForLinks {
+        display: none;
+        
+    }
+   
+    .containerForInfo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 0 25px;
+        max-width: 800px;
+        color: #ffffff;
+    }
+    .tittle {
+        font-size: 60px;
+        font-weight: 800;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .text {
+        font-weight: 700;
+        font-size: 12px;
+        padding-left: 150px;
+        padding-top: 10px;
+    }
+    .containerForFilials {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .filialLinksJalalAdad, .filialLinksIssykKul, .filialLinksBatken, .filialLinksTalas, .filialLinksOsh, .filialLinksNaryn {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 24px;
+        font-weight: 800;
+        min-width: 200px;
+        min-height: 80px;
+        margin: 0 auto;
+        color: #ffffff;
+        background-image: url("./photos/Osh.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .filialLinksTalas {
+        background-image: url("./photos/Talas.png");
+    }
+    .filialLinksBatken {
+        background-image: url("./photos/Batken.png");
+    }
+    .filialLinksIssykKul {
+        background-image: url("./photos/IssykKul.png");
+    }
+    .filialLinksJalalAdad {
+        background-image: url("./photos/JalalAbad.png");
+    }
+    .filialLinksNaryn {
+        background-image: url("./photos/Naryn.png");
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .filials {
+        min-width: 97vh;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .text {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+   
+    .text {
+        margin: 0 10px 5px 5px;
+        font-size: 13px;
+        padding: 35px;
+    }
+    .tittle{
+
+    }
+}
+
+@media (max-width: 768px) {
+  
+}
+

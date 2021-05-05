@@ -1,0 +1,13 @@
+.card {
+  background: transparent;
+  border: none;
+  max-width: 500px;
+}
+.card__title {
+  color: #2e373b;
+  font-size: 21px;
+  font-weight: 500;
+}
+.card__date {
+  color: #f6404f;
+}
